@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:id="@+id/history_recycler_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"
+            android:elevation="5dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/history_recycler_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="26dp"
+            android:layout_toEndOf="@+id/history_recycler_circle"
+            android:elevation="15dp"
+            android:text="TextView"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/history_recycler_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:elevation="15dp"
+            android:text="TextView"
+            android:textColor="?android:attr/colorActivatedHighlight" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

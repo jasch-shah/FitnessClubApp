@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "90117511500",
+    "firebase_url": "https://fitnessclubapp.firebaseio.com",
+    "project_id": "fitnessclubapp",
+    "storage_bucket": "fitnessclubapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90117511500:android:ec00421d7e983fd0",
+        "android_client_info": {
+          "package_name": "com.example.android.fitnessclubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90117511500-uo5br1pb8acn76calvva6j996dge2te0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.fitnessclubapp",
+            "certificate_hash": "67d68f17e75573f0d8dc1f4f7b3008ce52004754"
+          }
+        },
+        {
+          "client_id": "90117511500-ho5dlc20u1gvdafagvlg9d42kevvdqfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC55KpIte8kajBc4AWS_Y1eM1-WgUm5Yxw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90117511500-ho5dlc20u1gvdafagvlg9d42kevvdqfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
